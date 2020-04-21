@@ -1,6 +1,6 @@
 <?php namespace ProcessWire;
 /**
- * ProcessWire module to show a happy birthday message after login
+ * ProcessWire module to show a happy birthday message within a given period after birthday
  *
  * @author Bernhard Baumrock, 21.04.2020
  * @license Licensed under MIT
@@ -12,7 +12,7 @@ class RockBirthday extends WireData implements Module {
     return [
       'title' => 'RockBirthday',
       'version' => '1.0.0',
-      'summary' => 'ProcessWire module to show a happy birthday message after login',
+      'summary' => 'ProcessWire module to show a happy birthday message within a given period after birthday',
       'autoload' => "template=admin",
       'singular' => true,
       'icon' => 'smile-o',
