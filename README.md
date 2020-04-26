@@ -2,6 +2,8 @@
 
 ProcessWire module to show a happy birthday message within a given period after birthday.
 
+See instructions here: https://weekly.pw/issue/311/#new-module-rockbirthday
+
 ## Usage
 
 Just install the module and customize it via hooks in `/site/init.php` (**not ready.php**):
